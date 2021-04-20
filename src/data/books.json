@@ -4,7 +4,15 @@
     "title": "Pandemic (The Extinction Files, Book 1)",
     "img": "https://images-na.ssl-images-amazon.com/images/I/91xrEMcvmQL.jpg",
     "price": 7.81,
-    "category": "scifi"
+    "category": "scifi",
+    "comments": [
+      {
+        "text": "RANDOM TEXT 2",
+        "username": "jonyy2",
+        "commentId": "1rzgsrji7sknq4yx4o",
+        "createdAt": "2021-04-20T14:42:23.928Z"
+      }
+    ]
   },
   {
     "asin": "0425264041",

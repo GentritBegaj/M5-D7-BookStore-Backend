@@ -3,11 +3,12 @@ import cors from "cors";
 import booksRoutes from "./books/index.js";
 
 const server = express();
+server.use(express.json());
 const port = process.env.PORT || 3001;
 
 const whiteList = [process.env.FE_URL_DEV, process.env.FE_URL_PROD]; // need to configure it manually on Heroku
 
-console.log({ whiteList });
+// console.log({ whiteList });
 
 const corsOptions = {
   origin: function (origin, next) {
